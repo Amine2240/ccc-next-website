@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
@@ -15,7 +15,7 @@ const Index = ({ navbar_items, navbarbool, setnavbarbool }) => {
         {navbar_items.map((item) => {
           return (
             <li
-              key={navbar_items.id}
+              key={item.id}
               onClick={() => {
                 seti(item.id);
               }}

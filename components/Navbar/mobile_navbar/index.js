@@ -15,7 +15,7 @@ const Index = ({ navbar_items, navbarbool }) => {
         {navbar_items.map((item) => {
           return (
             <li
-              key={navbar_items.id}
+              key={item.id}
               onClick={() => {
                 seti(item.id);
               }}
