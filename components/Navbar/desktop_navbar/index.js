@@ -6,7 +6,7 @@ import Image from "next/image";
 const Index = ({ navbar_items, navbarbool, setnavbarbool }) => {
   const [i, seti] = useState(0);
   return (
-    <nav className=" bg-[#0A0A0A] h-[10vh] text-white flex  place-content-between items-center fixed w-full z-30">
+    <nav className=" bg-[#0A0A0A] py-2 text-white flex  place-content-between items-center fixed w-full z-30">
       <div className=" md:ml-20 ml-10 cursor-pointer">
         {/* <img src="" alt="" /> */}
         <Image src="/logo.svg" alt="logo" width={50} height={20} />

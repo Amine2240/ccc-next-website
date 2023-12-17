@@ -10,14 +10,14 @@ const Index = () => {
           // backgroundImage: `url('https://www.figma.com/file/T3BWzbhD6sW1SOj2yL41la/%5BCCC%5D-Edition-1?type=design&node-id=281-19397&mode=design&t=Pmi0Aq6WA1Cyw8ej-4')`,
         }
       }
-      className=" text-white bg-[rgb(22,22,21,1)] h-[100vh] pt-20 flex place-content-center items-start overflow-y-hidden relative"
+      className=" text-white bg-[rgb(22,22,21,1)] pt-32 flex place-content-center items-start  relative min-h-[100vh]"
     >
       <Image
         src="/gridherobg.svg"
         alt="background image"
         layout="fill"
         objectFit="cover"
-        className=" mt-10 absolute z-[1]"
+        className=" absolute z-[5] w-full"
       />
 
       <Image
@@ -25,14 +25,14 @@ const Index = () => {
         alt="background image"
         width={100}
         height={100}
-        className=" mt-10 absolute top-[0%]  left-[4%] w-[30vw] lg:block hidden  scale-95 xl:scale-100"
+        className=" mt-20 absolute top-[0%]  left-[4%] w-[30vw] lg:block hidden  scale-95 xl:scale-100"
       />
       <Image
         src="/herofloatgreen.svg"
         alt="background image"
         width={100}
         height={100}
-        className=" mt-10 absolute bottom-[2%] left-0 w-[30vw] lg:block hidden scale-95 xl:scale-100"
+        className=" absolute top-[285px] left-0 w-[30vw] lg:block hidden scale-95 xl:scale-100"
       />
       <Image
         src="/herofloatyellow.svg"
@@ -96,7 +96,7 @@ const Index = () => {
             <span className=" ml-2"> 05 - 06 December </span>
           </p>
         </div>
-        <button className=" text-black bg-white h-14 rounded-lg px-5 md:w-60 w-80 capitalize font-bold text-xl z-10">
+        <button className=" text-black bg-white py-3 rounded-lg px-5 md:w-60 w-80 capitalize font-bold text-xl z-10 ">
           register now
         </button>
       </div>
